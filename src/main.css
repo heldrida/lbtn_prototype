@@ -1,0 +1,25 @@
+@import "one";
+
+/* Testing autoprefixer */
+
+.autoprefixer {
+	display: flex;
+}
+
+/* Testing cssnext */
+
+.cssnext {
+	background: color(red alpha(-10%));
+}
+
+/* Testing precss */
+
+.precss {
+	@if 6 < 5 {
+		background: green;
+	}
+
+	@else {
+		background: blue;
+	}
+}
